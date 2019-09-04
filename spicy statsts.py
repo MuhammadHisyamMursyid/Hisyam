@@ -2,7 +2,7 @@ import pandas as pd
 from scipy import stats
 import numpy as np
 import seaborn as sns 
-data = pd.read_csv("es.csv")
+data = pd.read_csv("dataMining.csv")
 cm = sns.light_palette("red", as_cmap=True)
 data.style.background_gradient(cmap=cm)
 
